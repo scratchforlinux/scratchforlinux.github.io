@@ -13,10 +13,11 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ## Downloads
 * * *
-![Screenshot](https://scratux.github.io/assets/images/deb.png  =25x)
-![Screenshot](https://scratux.github.io/assets/images/arch.png)
-![Screenshot](https://scratux.github.io/assets/images/appimage.png)
-![Screenshot](https://scratux.github.io/assets/images/snap.png)
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+
+<img src="https://scratux.github.io/assets/images/arch.png" alt="Deb"	title="Download .deb" width="150" />
 
 
 
