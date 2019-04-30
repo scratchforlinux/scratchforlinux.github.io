@@ -4,7 +4,9 @@
 @import "{{ site.theme }}";
 aside a.deb {
     background: transparent url(../images/download-button-deb.png) 0 0 no-repeat;
+    padding-left: 75px;
 }
 aside a.appimage {
     background: transparent url(../images/download-button-appimage.png) 0 0 no-repeat;
+    padding-left: 75px;
 }
