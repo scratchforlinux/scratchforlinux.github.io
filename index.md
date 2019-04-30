@@ -28,10 +28,10 @@ Scratux is built-in different languages and is always based on the latest Scratc
     <th>Snap</th>
   </tr>
   <tr>
-    <th><a href="">Download</a></th>
-    <th><a href="">Download</a></th>
-    <th><a href="">Download</a>.</th>
-    <th><a href="">Download</a></th>
+    <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
+    <th><a href=""><br>Download</a></th>
+    <th><a href=""><br>Download</a>.</th>
+    <th><a href="https://snapcraft.io/scratux">Download</a></th>
   </tr>
 
 </table>
