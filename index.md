@@ -13,7 +13,7 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ## Downloads
 * * *
-![Screenshot](https://scratux.github.io/assets/images/deb.png)
+![Screenshot](https://scratux.github.io/assets/images/deb.png  =25x)
 ![Screenshot](https://scratux.github.io/assets/images/arch.png)
 ![Screenshot](https://scratux.github.io/assets/images/appimage.png)
 ![Screenshot](https://scratux.github.io/assets/images/snap.png)
