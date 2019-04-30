@@ -1,3 +1,6 @@
 title: Scratux
 theme: jekyll-theme-architect
 show_downloads: true
+github:
+  deb_url: http://example.com/download.zip
+  appimage_url: http://example.com/download.zip
