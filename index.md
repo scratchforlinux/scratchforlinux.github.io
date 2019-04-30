@@ -5,6 +5,7 @@ Since the official Scratch project does not provide binaries for Linux distribut
 
 Scratux is built-in different languages and is always based on the latest Scratch release. (Currently Scratch 3.0)
 
+![Screenshot](https://scratux.github.io/assets/images/screenshot.png)
 ### Build your own
 
 ```sh
