@@ -49,4 +49,4 @@ $ yarn run build
 
 ## Support or Contact
 * * *
-Drop me some lines at joancipria@gmail.com
+Drop me some lines at <a href = "mailto: joancipria@gmail.com">joancipria@gmail.com</a>
