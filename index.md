@@ -13,13 +13,28 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ## Downloads
 * * *
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
+<table>
+  <tr>
+    <th><img src="https://scratux.github.io/assets/images/deb.png" alt="Deb" title="Download .deb" width="150" /></th>
+    <th><img src="https://scratux.github.io/assets/images/appimage.png" alt="Appimage" title="Download AppImage"
+        width="150" /></th>
+    <th><img src="https://scratux.github.io/assets/images/arch.png" alt="Arch" title="Download Arch" width="150" /></th>
+    <th><img src="https://scratux.github.io/assets/images/snap.png" alt="Snap" title="Download Snap" width="150" /></th>
+  </tr>
+  <tr>
+    <th>Debian, Ubuntu ...</th>
+    <th>AppImage</th>
+    <th>Arch, Manjaro ...</th>
+    <th>Snap</th>
+  </tr>
+  <tr>
+    <th><a href="">Download</a></th>
+    <th><a href="">Download</a></th>
+    <th><a href="">Download</a>.</th>
+    <th><a href="">Download</a></th>
+  </tr>
 
-<img src="https://scratux.github.io/assets/images/arch.png" alt="Deb"	title="Download .deb" width="150" />
-
-
+</table>
 
 ## Build your own
 * * *
