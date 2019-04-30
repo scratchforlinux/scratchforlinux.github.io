@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+## What is Scratux?
+Scratux is a simple project that aims to provide Free/Libre Open Source Linux binaries of [Scratch Desktop](https://scratch.mit.edu/download)
 
-You can use the [editor on GitHub](https://github.com/scratchforlinux/scratchforlinux.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Since the official Scratch project does not provide binaries for Linux distributions, we created this project so you do not have to download + build from source. Just click and install it.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Scratux is built-in different languages and is always based on the latest Scratch release. (Currently Scratch 3.0)
 
-### Markdown
+### Build your own
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+$ git clone https://github.com/scratux/scratux.git
+$ cd scratux
+$ git checkout master
+$ yarn
+$ yarn run build
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/scratchforlinux/scratchforlinux.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Drop me some lines at joancipria@gmail.com
