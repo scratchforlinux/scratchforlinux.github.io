@@ -9,7 +9,7 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ![Screenshot](https://scratux.github.io/assets/images/screenshot.png)
 
-##Downloads
+## Downloads
 
 ## Build your own
 
