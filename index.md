@@ -13,7 +13,7 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ## Downloads
 * * *
-<table>
+<table border="0px">
   <tr>
     <th><img src="https://scratux.github.io/assets/images/deb.png" alt="Deb" title="Download .deb" width="150" /></th>
     <th><img src="https://scratux.github.io/assets/images/appimage.png" alt="Appimage" title="Download AppImage"
@@ -29,8 +29,8 @@ Scratux is built-in different languages and is always based on the latest Scratc
   </tr>
   <tr>
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
-    <th><a href=""><br>Download</a></th>
-    <th><a href=""><br>Download</a></th>
+    <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
+    <th><a href="{{ site.github.arch_url }}"><br>Download</a></th>
     <th><a href="https://snapcraft.io/scratux"><br>Download</a></th>
   </tr>
 
