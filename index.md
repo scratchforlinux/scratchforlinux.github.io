@@ -13,7 +13,7 @@ Scratux is built-in different languages and is always based on the latest Scratc
 
 ## Downloads
 * * *
-<table border="0px">
+<table style="border: none;">
   <tr>
     <th><img src="https://scratux.github.io/assets/images/deb.png" alt="Deb" title="Download .deb" width="150" /></th>
     <th><img src="https://scratux.github.io/assets/images/appimage.png" alt="Appimage" title="Download AppImage"
