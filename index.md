@@ -31,7 +31,7 @@ Scratux is built-in different languages and is always based on the latest Scratc
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.arch_url }}"><br>Download</a></th>
-    <th>Coming soon</th>
+    <th><br>Coming soon</th>
   </tr>
 
 </table>
