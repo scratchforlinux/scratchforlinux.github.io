@@ -7,7 +7,7 @@ Basically Scratux is a simple project that aims to provide Free/Libre Open Sourc
 
 Since the official Scratch project does not provide binaries for Linux distributions, we created this project so you do not have to download + build from source. Just click and install it.
 
-Scratux is built-in different languages and is always based on the latest Scratch release. (Currently Scratch 3.0)
+Scratux is built-in different languages and is always based on the latest stable Scratch release. (Currently Scratch 3.0)
 
 ![Screenshot](https://scratux.github.io/assets/images/screenshot.png)
 
