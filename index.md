@@ -29,13 +29,6 @@ Scratux is built-in different languages and is always based on the latest stable
     <th>.deb (armv7l)</th>
     <th>Snap</th>
   </tr>
-    <tr>
-    <th>Debian & Ubuntu</th>
-    <th>All common Linux distributions</th>
-    <th>Arch</th>
-    <th>Raspbian</th>
-    <th>All common Linux distributions</th>
-  </tr>
   <tr>
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
