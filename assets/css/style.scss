@@ -2,6 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+html {
+  scroll-behavior: smooth;
+}
 aside a.deb {
     background: transparent url(../images/download-button-deb.png) 0 0 no-repeat;
     padding-left: 75px;
