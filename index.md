@@ -23,11 +23,18 @@ Scratux is built-in different languages and is always based on the latest stable
     <th><img src="https://scratux.github.io/assets/images/snap.png" alt="Snap" title="Download Snap" width="150" /></th>
   </tr>
   <tr>
-    <th>Debian, Ubuntu ...</th>
+    <th>.deb</th>
     <th>AppImage</th>
-    <th>Arch, Manjaro ...</th>
-    <th>Raspbian</th>
+    <th>Pacman</th>
+    <th>.deb (armv7l)</th>
     <th>Snap</th>
+  </tr>
+    <tr>
+    <th>Debian & Ubuntu</th>
+    <th>All common Linux distributions</th>
+    <th>Arch</th>
+    <th>Raspbian</th>
+    <th>All common Linux distributions</th>
   </tr>
   <tr>
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
