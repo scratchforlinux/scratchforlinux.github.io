@@ -19,18 +19,21 @@ Scratux is built-in different languages and is always based on the latest stable
     <th><img src="https://scratux.github.io/assets/images/appimage.png" alt="Appimage" title="Download AppImage"
         width="150" /></th>
     <th><img src="https://scratux.github.io/assets/images/arch.png" alt="Arch" title="Download Arch" width="150" /></th>
+    <th><img src="https://scratux.github.io/assets/images/rasp.png" alt="Arch" title="Download .deb for Raspbian" width="150" /></th>
     <th><img src="https://scratux.github.io/assets/images/snap.png" alt="Snap" title="Download Snap" width="150" /></th>
   </tr>
   <tr>
     <th>Debian, Ubuntu ...</th>
     <th>AppImage</th>
     <th>Arch, Manjaro ...</th>
+    <th>Raspbian</th>
     <th>Snap</th>
   </tr>
   <tr>
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.arch_url }}"><br>Download</a></th>
+    <th><br>Coming soon</th>
     <th><br>Coming soon</th>
   </tr>
 
