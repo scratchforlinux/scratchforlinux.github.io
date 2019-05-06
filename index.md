@@ -33,7 +33,7 @@ Scratux is built-in different languages and is always based on the latest stable
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.arch_url }}"><br>Download</a></th>
-    <th><a href="{{ site.github.arm_url }}"><br>Download</a></th>
+    <th>(Beta)<br><a href="{{ site.github.arm_url }}">Download</a></th>
     <th><a href="https://snapcraft.io/scratux"><br>Download</a></th>
   </tr>
 
