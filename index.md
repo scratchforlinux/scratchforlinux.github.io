@@ -33,8 +33,8 @@ Scratux is built-in different languages and is always based on the latest stable
     <th><a href="{{ site.github.deb_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.appimage_url }}"><br>Download</a></th>
     <th><a href="{{ site.github.arch_url }}"><br>Download</a></th>
-    <th><br>Coming soon</th>
-    <th><br>Coming soon</th>
+    <th><a href="{{ site.github.arm_url }}"><br>Download</a></th>
+    <th><a href="https://snapcraft.io/scratux"><br>Download</a></th>
   </tr>
 
 </table>
@@ -42,12 +42,16 @@ Scratux is built-in different languages and is always based on the latest stable
 ## Build your own
 * * *
 
+First, download this project and run the `fetch.sh` script. This will donwload our latest `scratch-desktop` and `scratch-gui` custom repositories and will initialize them. Then run `npm` or `yarn` to build.
+
 ```sh
 $ git clone https://github.com/scratux/scratux.git
 $ cd scratux
 $ git checkout master
-$ yarn
-$ yarn run build
+$ chmod +x fetch.sh
+$ ./fetch.sh
+$ cd src
+$ yarn run dist // or npm run dist
 ```
 
 ## Support or Contact
