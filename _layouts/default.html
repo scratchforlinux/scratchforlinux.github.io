@@ -1,53 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Scratux | Linux binaries of Scratch Desktop</title>
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-    <title>Scratux | Linux binaries of Scratch Desktop</title>
-{% seo title=false %}
-{% seo %}
-  </head>
+    {% seo title=false %}
+    {% seo %}
+    <!-- main css -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+    <link href="https://cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.11/assets/font-logos.css" rel="stylesheet">
+    <style>
+        .download-icon {
+            font-size: 46px;
+            color: black;
+        }
+    </style>
+</head>
 
-  <body>
-    <header>
-      <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-          <a href="{{ site.github.owner_url }}" class="button"><small>View project on</small> GitHub</a>
-      </div>
+<body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container box_1620">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img width="250px" src="logo.png" alt=""></a>
+                    <a class="github-fork-ribbon" href="https://github.com/scratux/scratux"
+                        data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+                </div>
+            </nav>
+        </div>
     </header>
+    <!--================Header Menu Area =================-->
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          {{ content }}
-        </section>
+    <!--================Home Banner Area =================-->
+    <section class="home_banner_area">
+        <div class="banner_inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="banner_content">
+                            <h2>Block-based<br />Visual Programming</h2>
+                            <p>Scratux is a block-based visual programming language targeted primarily at children.
+                                Users can create projects using a block-like interface. With Scratux, you can program
+                                your own interactive stories, games, and animations — and share your creations with
+                                others in the online community.</p>
+                            <a class="banner_btn" href="#about">More info</a>
+                            <a class="banner_btn2" href="#download">Download</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="home_left_img">
+                            <img class="img-fluid" src="laptop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Home Banner Area =================-->
 
-        <aside id="sidebar">
-          <h2>Download Latest Scratux (v{{ site.github.version }})</h2>
-          {% if site.show_downloads %}
-            <a href="{{ site.github.deb_url }}" class="button deb">
-              <small>Download Scratux</small>
-              .deb
-            </a>
-            <a href="{{ site.github.appimage_url }}" class="button appimage">
-              <small>Download Scratux</small>
-              .AppImage
-            </a>
-          {% endif %}
-            <p class="repo-owner"><a href="#downloads">Other downloads</a></p> 
-        </aside>
-      </div>
-    </div>
+    <!--================Work Area =================-->
+    <section class="made_life_area p_120">
+        <div class="container">
+            <div class="made_life_inner">
+                <div class="row made_life_text">
+                    <div class="col-lg-6">
+                        <div class="left_side_text">
+                            <h3>Why Does<br>Scratux Exist?</h3>
+                            <h6>Open Source Linux binaries of Scratch Desktop</h6><br>
+                            <p>Basically Scratux is a simple project that aims to provide Free/Libre Open Source Linux
+                                binaries of Scratch Desktop (previously called the Scratch Offline editor). So consider
+                                it as the unofficial Scratch for Linux ;)
+                                <br><br>
+                                Since the official Scratch project does not provide binaries for Linux distributions, we
+                                created this project so you do not have to download + build from source. Just click and
+                                install it.
+                                <br><br>
+                                Scratux is built-in different languages and is always based on the latest stable Scratch
+                                release. (Currently Scratch 3.0)</p>
+                            <a class="main_btn" href="https://github.com/scratux/scratux">Get Involved</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="chart_img">
+                            <img class="img-fluid" src="window.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Work Area =================-->
 
+    <!--================Price Area =================-->
+    <section id="download" class="price_area p_120">
+        <div class="container">
+            <div class="main_title">
+                <h2>Download</h2>
+            </div>
+            <div class="price_inner row">
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-ubuntu"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>.deb</b></li>
+                                <li>For Debian, Ubuntu and derivates</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="{{ site.github.deb_url }}">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-raspberry-pi"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>.deb (armv7l)</b></li>
+                                <li>For Raspbian</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="{{ site.github.arm_url }}">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-archlinux"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>.pacman</b></li>
+                                <li>For Manjaro, Arch and derivates</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="{{ site.github.arch_url }}">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-fedora"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>.rpm</b></li>
+                                <li>For Fedora, Redhat and derivates</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="{{ site.github.rpm_url }}">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-tux"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>AppImage</b></li>
+                                <li>For all</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="{{ site.github.appimage_url }}">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="price_item">
+                        <div class="price_head">
+                            <h2>
+                                <span class="download-icon fl-snappy"></span>
+                            </h2>
+                        </div>
+                        <div class="price_body">
+                            <ul class="list">
+                                <li class="downloads-name"><b>Scratux {{ site.github.version }}</b></li>
+                                <li class="downloads-name"><b>Snap Store</b></li>
+                                <li>For Debian, Ubuntu and derivates</li>
+                            </ul>
+                            <br>
+                            <br>
+                            <a class="main_btn" href="https://snapcraft.io/scratux">Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================End Price Area =================-->
+    <!--================Footer Area =================-->
+    <footer class="footer_area p_120">
+        <div class="container">
+            <div class="row footer_inner">
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget ab_widget">
+                        <div class="f_title">
+                            <h3>License</h3>
+                        </div>
+                        <p>Licensed under BSD-3-Clause. The Scratch trademarks, including the Scratch name, logo, the Scratch Cat, Gobo, Pico, Nano, Tera and Giga graphics (the "Marks"), are property of the Massachusetts Institute of Technology (MIT). </p>
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script
+                                type="fe49a1179f0dd5dd77a37cd5-text/javascript">document.write(new Date().getFullYear());</script>
+                            All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </aside>
+                </div>
+                <div class="col-lg-5 col-sm-6">
+                    <aside class="f_widget news_widget">
+                     
+                    </aside>
+                </div>
+                <div class="col-lg-2">
+                    <aside class="f_widget social_widget">
+                        <div class="f_title">
+                            <h3>About</h3>
+                        </div>
+                        <p>Mantained by Joan Ciprià. Drop me some lines at joancipria@gmail.com</p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -58,5 +277,8 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-  </body>
+    <!--================End Footer Area =================-->
+
 </html>
+
+
