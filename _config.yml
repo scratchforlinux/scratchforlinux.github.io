@@ -1,6 +1,5 @@
 title: Scratux
 description: Free and open source Linux Binaries of Scratch Desktop. Scratux is a block-based visual programming language targeted primarily at children
-theme: jekyll-theme-architect
 show_downloads: true
 plugins:
   - jekyll-seo-tag
