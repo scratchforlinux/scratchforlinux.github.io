@@ -1,10 +1,10 @@
 title: Scratux
 description: Free and open source Linux Binaries of Scratch Desktop. Scratux is a block-based visual programming language targeted primarily at children
 github:
-  deb_url: https://github.com/scratux/scratux/releases/download/v1.2/scratux_1.2.0_amd64.deb
-  rpm_url: https://github.com/scratux/scratux/releases/download/v1.2/scratux-1.2.0.x86_64.rpm
-  appimage_url: https://github.com/scratux/scratux/releases/download/v1.2/scratux.1.2.0.AppImage
-  arch_url: https://github.com/scratux/scratux/releases/download/v1.2/scratux-1.2.0.pacman
-  arm_url: https://github.com/scratux/scratux/releases/download/v1.1/scratux_1.1.0_armv7l.deb
-  version: 1.2.0
-  scratchversion: 3.5.1
+  deb_url: https://github.com/scratux/scratux/releases/download/v1.3/scratux_1.3.0_amd64.deb
+  rpm_url: https://github.com/scratux/scratux/releases/download/v1.3/scratux-1.3.0.x86_64.rpm
+  appimage_url: https://github.com/scratux/scratux/releases/download/v1.3/scratux-1.3.0.AppImage
+  arch_url: https://github.com/scratux/scratux/releases/download/v1.3/scratux-1.3.0.pacman
+  arm_url: https://github.com/scratux/scratux/releases/download/v1.3/scratux_1.3.0_armv7l.deb
+  version: 1.3.0
+  scratchversion: 3.8.0
