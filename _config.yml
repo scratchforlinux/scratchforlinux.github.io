@@ -6,5 +6,5 @@ github:
   appimage_url: https://github.com/scratux/scratux/releases/download/1.4.1/scratux-1.4.1.AppImage
   arch_url: https://github.com/scratux/scratux/releases/download/1.4.1/scratux-1.4.1.pacman
   arm_url: https://github.com/scratux/scratux/releases/download/1.4.1/scratux_1.4.1_armv7l.deb
-  version: 1.4
+  version: 1.4.1
   scratchversion: 3.10.2
